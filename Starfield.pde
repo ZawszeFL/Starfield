@@ -1,26 +1,44 @@
-//your code here
+
 void setup()
 {
-	//your code here
+	
 }
 void draw()
 {
-	//your code here
+	
 }
 class NormalParticle
 {
-	//your code here
+	int myX, myY;
+	double myA, myS;
+
+	NormalParticle(int x, inty)
+	{
+		myX=(int)(Math.random()*300);
+		myY=(int)(Math.random()*300);
+		myS=Math.random()*10;
+		myA=Math.PI*2*Math.random();
+	}
+
+void move()
+{
+	
 }
+}
+
+
+
+
 interface Particle
 {
-	//your code here
+	
 }
 class OddballParticle //uses an interface
 {
-	//your code here
+	
 }
 class JumboParticle //uses inheritance
 {
-	//your code here
+	
 }
 
